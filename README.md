@@ -30,7 +30,7 @@ effect.
 The paper doesn't test whether the idea still works with limited data, different base models, 
 and controls to make sure
 any gain really comes from the sign mechanism and not just from
-fine-tuning in general. That's the gap this project tries to measure:
+fine-tuning in general. That's the gap this project tries to explore:
 
 - **4 different base models**, to see if any gain holds across models or
   is a one-off (`colbertv2.0`, `answerai-colbert-small-v1`,
