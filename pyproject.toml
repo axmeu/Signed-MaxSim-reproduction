@@ -1,0 +1,26 @@
+[project]
+name = "signed-maxsim"
+version = "0.1.0"
+description = "Implémentation et validation empirique indépendante de Signed MaxSim (Killingback et al., arXiv:2607.05803) sur late-interaction retrieval avec négation"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "torch>=2.2.0",
+    "transformers>=4.42.0",
+    "pylate[eval]>=1.1.0",
+    "sentence-transformers>=3.0.0",
+    "datasets>=2.19.0",
+    "accelerate>=0.30.0",
+    "ranx>=0.3.16",
+    "matplotlib>=3.8.0",
+    "numpy>=1.26.0",
+    "ipykernel>=6.29.0",
+    "jupyter>=1.0.0",
+    "pytest>=8.0.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
