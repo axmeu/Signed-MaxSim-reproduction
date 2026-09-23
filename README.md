@@ -25,12 +25,13 @@ The paper's own experiment (nDCG@10 jumping from 0.597 to 1.000 on a
 negation task) is there to show the theoretical limit has a real
 effect.
 
-## What this project adds
+## Why this project
+
 
 The paper doesn't test whether the idea still works with limited data, different base models, 
 and controls to make sure
 any gain really comes from the sign mechanism and not just from
-fine-tuning in general. That's the gap this project tries to explore:
+fine-tuning in general. That's what I try to explore:
 
 - **4 different base models**, to see if any gain holds across models or
   is a one-off (`colbertv2.0`, `answerai-colbert-small-v1`,
